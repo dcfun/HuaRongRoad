@@ -1,5 +1,4 @@
-package HuaRongDao;
-
+package HuaRongRoad;
 
 import java.awt.Color;
 import java.awt.event.FocusEvent;
@@ -9,16 +8,8 @@ import javax.swing.JButton;
 
 class Person extends JButton implements FocusListener {
 
-	private Color c = new Color(255, 245, 170);
-	private int PersonNum;
-
-	public int getPersonNum() {
-		return PersonNum;
-	}
-
-	public void setPersonNum(int personNum) {
-		PersonNum = personNum;
-	}
+	Color c = new Color(255, 245, 170);
+	int PersonNum;
 	
 	Person(int PersonNum, String PersonName){
 		super(PersonName);
